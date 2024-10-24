@@ -8,6 +8,7 @@ public class VulnerableApp {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
+        String TEST = "TEST";
         String password = "password";
 
         Scanner scanner = new Scanner(System.in);
@@ -33,3 +34,4 @@ public class VulnerableApp {
         }
     }
 }
+
